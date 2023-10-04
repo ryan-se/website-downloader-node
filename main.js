@@ -67,8 +67,7 @@ async function downloadWebsite(url) {
             const selectedLink = parseInt(answer) - 1;
 
             if (selectedLink === -1) {
-                console.log('Exiting. Thank you for using this program.');
-                r1.close();
+                rl.close();
                 return;
             } else if (!isNaN(selectedLink) && selectedLink >= 0 && selectedLink < links.length) {
                 const linkAddress = links[selectedLink];
