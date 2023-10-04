@@ -90,7 +90,7 @@ rl.question('Enter a complete wesbite URL to download the .html file: ', (url) =
 
 
 // exit cleanup
-rl.on(0, () => {
+rl.on('close', () => {
     console.log('Exiting. Thank you for using this program.');
     process.exit(0);
 });
