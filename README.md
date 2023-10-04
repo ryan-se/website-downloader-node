@@ -10,3 +10,11 @@ Using the terminal, navigate to the folder that the program is saved.
 Use the command "npm install" to download required packages.
 
 Use the command "node main.js" to start the program.
+
+# Using The Program
+
+The prompt will ask for a web address; enter it incliding http: or https: and press enter
+
+The .html file will be downloaded to the same location as main.js and a list of links found in the file will be listed and assigned numbers. 
+
+Enter the number for a chosen link and press the enter key, and that address will be downloaded as well. Enter 0 in the prompt to exit the program
